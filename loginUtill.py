@@ -310,8 +310,3 @@ class Assets:
 
 class Flask_Login_Utills(Assets):
 	pass
-
-# a = Flask_Login_Utills()
-# a.config['DUPLICATE_EMAIL'] = True
-# a.config['ANTI_DUPLICATE_INDEX'] = ['username', 'password']
-# print(a.login({'email': "test@gmail.com", 'username': "mintsoda", 'password': "testacc123"}))
